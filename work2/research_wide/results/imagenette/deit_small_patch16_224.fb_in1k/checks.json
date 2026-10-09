@@ -1,0 +1,35 @@
+{
+  "model": "deit_small_patch16_224.fb_in1k",
+  "dataset": "imagenette",
+  "checkpoint_sha256": "1e747b4a8d0df2cfbd3c450e8c97685d867448ab0c2ddbfb34b6885f5cb23e5b",
+  "source_sha256": "f4820d3b0c0b4d2587ac36413aeac0281172479a01ad6b03700ddc0181c5feee",
+  "raw_state_bytes": 88202656,
+  "fixed_pruned_weights": 1415568,
+  "changed_parameter_values": 20634137,
+  "masks_preserved": true,
+  "train_samples": 60,
+  "validation_samples": 20,
+  "evaluation_samples": 250,
+  "optimizer_steps": 32,
+  "cpu_process_peak_rss_kib": 1815316,
+  "preprocessing": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 0.9,
+    "crop_mode": "center"
+  }
+}
