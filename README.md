@@ -1,4 +1,4 @@
-# ViT-ReCo: minimal experiment code
+# ViT-ReCo
 
 Reproduce the saved Imagenette-160 experiment for DeiT-Tiny, DeiT-Small, and Swin-Tiny. The model uses a fixed 10% MLP magnitude mask, two FP32 recovery epochs, two weight-only INT8 QAT epochs, group-32 coding, and Zstandard compression. The original 1,000-class heads are retained. This is **checkpoint compression**; inference reconstructs dense weights.
 
