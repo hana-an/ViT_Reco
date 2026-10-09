@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+vitreco_validation/data/
+vitreco_validation/models/
+vitreco_validation/results/
+vitreco_validation/loading_benchmark/
+vitreco_validation/summary.json
+vitreco_validation/RESULTS.md
+*.zip
+*.zst
+*.safetensors
+*.pt
